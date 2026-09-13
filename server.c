@@ -41,7 +41,7 @@ int main() {
 
   const char *msg = "[/] Welcome~ How are you?";
   // send(new_socket, msg, strlen(msg), 0);
-  send_str(new_socket, "[/] Welcome~ How are you?");
+  send_str(new_socket, msg);
 
   close(new_socket);
   close(server_fd);
